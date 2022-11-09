@@ -21,7 +21,8 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
-  }
+}
+
 
 /* Header  */
 
@@ -32,11 +33,22 @@ header {
 /* Navbar  */
 
 .navbar {
-    height: 80px;
+    height: 60px;
   
     display: flex;
     justify-content: space-between;
-  }
+}
+
+.navbar > * {
+    padding: 10px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 /* Jumbotron */
 
