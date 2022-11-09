@@ -91,9 +91,12 @@ section {
     height: 650px;
 }
 
+.services {
+    height: 1000px;
+}
 
 
-  section > .container {
+section > .container {
     height: 100%;
 }
 
@@ -113,6 +116,14 @@ section {
     background-color: #0061ff;
 }
   
+.row {
+    
+    flex-direction: column;
+}
 
+.col {
+    height: 50%;
+    flex-basis: calc(100% / 3);
+}
 
 /* Footer  */
