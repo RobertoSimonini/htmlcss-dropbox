@@ -14,7 +14,29 @@
     border: 2px dashed black;
 }
 
+.w-50 {
+    width: 50%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
 /* Header  */
+
+header {
+    background-color: #ff9800;
+}
+
+/* Navbar  */
+
+.navbar {
+    height: 80px;
+  
+    display: flex;
+    justify-content: space-between;
+  }
 
 /* Jumbotron */
 
