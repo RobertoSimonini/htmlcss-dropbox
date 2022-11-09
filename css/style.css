@@ -97,19 +97,19 @@ section {
     height: 1200px;
 }
     
-.sales-office, .users {
+.sales-office-section, .users-section {
     height: 400px;
 }
 
-.partner-feature {
+.partner-feature-section {
     height: 650px;
 }
 
-.services {
+.services-section {
     height: 1000px;
 }
 
-.members {
+.members-section {
     padding: 0;
     height: 700px;
 }
