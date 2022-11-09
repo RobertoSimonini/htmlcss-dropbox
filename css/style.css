@@ -23,10 +23,21 @@
     margin: 0 auto;
 }
 
+.flex {
+    display: flex;
+}
+
+.bg-lblue {
+    background-color: #b4d0e7;
+}
+
+.bg-white {
+    background-color: #fff;
+}
 
 /* Header  */
 
-header {
+.main-header {
     background-color: #ff9800;
 }
 
@@ -35,7 +46,6 @@ header {
 .navbar {
     height: 60px;
   
-    display: flex;
     justify-content: space-between;
 }
 
@@ -44,7 +54,6 @@ header {
 }
 
 .nav {
-    display: flex;
     align-items: center;
     justify-content: space-between;
 }
@@ -55,9 +64,7 @@ header {
 .jumbotron {
     padding: 50px;
     height: 750px;
-    background-color: #9f3932;
   
-    display: flex;
     justify-content: center;
   }
   
@@ -66,5 +73,36 @@ header {
   }
 
 /* Main and sections  */
+
+.business-plans {
+    padding: 50px;
+    height: 1200px;
+}
+  
+  section > .container {
+    height: 100%;
+}
+
+.section-header {
+   height: ; 
+   width: 1000px;
+   margin: 0 auto;
+   background-color: #fff;
+}
+
+.flex > .large-col {
+    flex-basis: 60%;
+    background-color: dodgerblue;
+}
+  
+.flex > .small-col {
+    flex-basis: 40%;
+    background-color: pink;
+}
+
+.flex > .business-col {
+    flex-basis: calc(100% / 3);
+}
+
 
 /* Footer  */
