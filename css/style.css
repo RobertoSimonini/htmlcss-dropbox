@@ -23,6 +23,10 @@
     margin: 0 auto;
 }
 
+.member-container {
+    height: 100%;
+}
+
 .flex {
     display: flex;
 }
@@ -34,6 +38,16 @@
 .bg-white {
     background-color: #fff;
 }
+
+.bg-gray {
+    background-color: #f5f5f5;
+}
+
+.w-33 {
+    flex-basis: calc(100% / 3);
+    
+}
+
 
 /* Header  */
 
@@ -83,7 +97,7 @@ section {
     height: 1200px;
 }
     
-.sales-office {
+.sales-office, .users {
     height: 400px;
 }
 
@@ -93,6 +107,11 @@ section {
 
 .services {
     height: 1000px;
+}
+
+.members {
+    padding: 0;
+    height: 700px;
 }
 
 
@@ -116,14 +135,24 @@ section > .container {
     background-color: #0061ff;
 }
   
-.row {
-    
+.row {    
     flex-direction: column;
 }
 
-.col {
+.col-service {
     height: 50%;
     flex-basis: calc(100% / 3);
 }
+
+.left-col, .right-col {   
+    flex-wrap: wrap;
+}
+
+.square-col {
+    flex-basis: calc(100% / 2);
+    border: 1px solid green;
+}
+
+
 
 /* Footer  */
