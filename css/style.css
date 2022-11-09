@@ -8,10 +8,16 @@
 
 /* Generics  */
 
+
+
 /* Utils  */
 
 .border {
     border: 2px dashed black;
+}
+
+.border-white {
+    border: 2px dashed white;
 }
 
 .container {
@@ -56,6 +62,9 @@
     background-color: #f5f5f5;
 }
 
+.bg-black {
+    background-color: #000000;
+}
 
 /* Header  */
 
@@ -90,9 +99,7 @@
     justify-content: center;
   }
   
-  .jumbotron .content {
-    background-color: violet;
-  }
+  
 
 /* Main and sections  */
 
@@ -177,3 +184,21 @@ section > .container {
 
 
 /* Footer  */
+
+.footer-top {
+    padding: 50px;
+    height: 600px;
+  
+    justify-content: center;
+}
+
+.footer-bottom {
+    padding: 50px;
+    height: 150px;
+  
+    justify-content: center;
+}
+
+.footer-nav > div {
+    flex-basis: 20%;
+}
