@@ -25,6 +25,11 @@
     margin: 0 auto;
 }
 
+.big-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .full-container {
     height: 100%;
 }
@@ -53,6 +58,10 @@
 
 .w-50 {
     width: 50%;
+}
+
+.w60 {
+    width: 60%;
 }
 
 .w-75 {
@@ -123,8 +132,13 @@
     height: 750px;
   
     justify-content: center;
-  }
-  
+}
+ 
+h1 {
+    font-weight: 800;
+    font-size: 75px;
+}
+
   
 
 /* Main and sections  */
