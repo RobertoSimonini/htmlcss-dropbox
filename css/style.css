@@ -28,6 +28,7 @@
 .big-container {
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
 }
 
 .full-container {
@@ -55,6 +56,8 @@
 
 p {
     padding-bottom: 25px;
+    padding-right: 20px;
+    font-size: 16px;
 }
 
 
@@ -141,12 +144,32 @@ p {
     height: 750px;
   
     justify-content: center;
+    
 }
  
 h1 {
     font-weight: 800;
     font-size: 75px;
-    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+figure {
+    position: absolute;
+    right: 25px;
+    top: 318px;
+}
+
+
+figure img {
+    height: 450px;
+    display: block;
+}
+
+.arrow-entity {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
 }
 
   
@@ -154,7 +177,7 @@ h1 {
 /* Main and sections  */
 
 section {
-    padding: 50px;
+    padding: 100px;
 }
 
         /* Sections Height  */
@@ -188,6 +211,8 @@ section {
     padding: 150px;
 }
 
+
+
 section > .container {
     height: 100%;
 }
@@ -195,7 +220,7 @@ section > .container {
 .flex > .business-col {
     flex-basis: calc(100% / 3);
     padding: 20px;
-    margin-top: 100px;  
+     
 }
 
 .flex > .large-col {
