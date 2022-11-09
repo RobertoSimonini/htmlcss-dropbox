@@ -52,6 +52,19 @@ header {
 
 /* Jumbotron */
 
+.jumbotron {
+    padding: 50px;
+    height: 750px;
+    background-color: #9f3932;
+  
+    display: flex;
+    justify-content: center;
+  }
+  
+  .jumbotron .content {
+    background-color: violet;
+  }
+
 /* Main and sections  */
 
 /* Footer  */
