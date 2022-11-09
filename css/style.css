@@ -14,10 +14,6 @@
     border: 2px dashed black;
 }
 
-.w-50 {
-    width: 50%;
-}
-
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -31,6 +27,20 @@
     display: flex;
 }
 
+
+/* Widths  */
+
+.w-33 {
+    flex-basis: calc(100% / 3);
+    
+}
+
+.w-50 {
+    width: 50%;
+}
+
+
+/* Background colors  */
 .bg-lblue {
     background-color: #b4d0e7;
 }
@@ -41,11 +51,6 @@
 
 .bg-gray {
     background-color: #f5f5f5;
-}
-
-.w-33 {
-    flex-basis: calc(100% / 3);
-    
 }
 
 
