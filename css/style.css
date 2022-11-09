@@ -48,11 +48,20 @@
     cursor: pointer;
 }
 
+.main-buttons {
+    padding: 10px 16px;
+    margin-bottom: 25px;
+}
+
+p {
+    padding-bottom: 25px;
+}
+
 
 /* Widths  */
 
 .w-33 {
-    flex-basis: calc(100% / 3);
+    width: calc(100% / 3);
     
 }
 
@@ -137,6 +146,7 @@
 h1 {
     font-weight: 800;
     font-size: 75px;
+    padding-bottom: 50px;
 }
 
   
