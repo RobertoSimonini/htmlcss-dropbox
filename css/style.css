@@ -1,0 +1,23 @@
+/* Css reset  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Generics  */
+
+/* Utils  */
+
+.border {
+    border: 2px dashed black;
+}
+
+/* Header  */
+
+/* Jumbotron */
+
+/* Main and sections  */
+
+/* Footer  */
