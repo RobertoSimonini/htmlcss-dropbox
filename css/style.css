@@ -68,6 +68,13 @@ img {
     height: 100%;
 }
 
+.company-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+}
+
 .flex {
     display: flex;
 }
@@ -196,6 +203,12 @@ p {
 
 /* Buttons  */
 
+.main-buttons {
+    padding: 10px 40px;
+    margin-bottom: 25px;
+    font-size: 13px;
+}
+
 .blue-button {
     text-decoration: none;
     border: none;
@@ -229,10 +242,7 @@ p {
     right: 0;
 }
 
-.main-buttons {
-    padding: 10px 30px;
-    margin-bottom: 25px;
-}
+
 
 /* Header  */
 
@@ -323,15 +333,18 @@ section {
     height: 250px;
     padding-bottom: 0;
 }
+
+
         
 .business-plans {   
     height: 1200px;
     padding-top: 0;
 }
-    
-.sales-office-section, .users-section {
+ 
+ .user-section {
     height: 400px;
 }
+
 
 .partner-feature-section {
     height: 700px;
@@ -388,7 +401,7 @@ section > .container {
 
 .flex > .full-col {
     flex-basis: 100%;
-    background-color: rgb(85, 202, 157);
+    /* background-color: rgb(85, 202, 157); */
 }
   
 .row {    
@@ -447,6 +460,14 @@ section > .container {
     padding: 50px 0;
 }
 
+.freq-question {
+    font-weight: 600;
+    color: #000;
+    padding: 35px 0;
+    border-bottom: 1px solid black ;
+
+}
+
 /* Footer  */
 
 .footer-top {
@@ -465,4 +486,40 @@ section > .container {
 
 .footer-nav > div {
     flex-basis: 20%;
+}
+
+
+.sales-header {
+    min-height: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sales-wrapper {
+    min-height: 300px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-top: 0;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    padding: 0 35px;
+    position: relative;
+}
+
+.s-button {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    font-size: 15px;
+    padding: 10px 40px;
+}
+
+.contact {
+    font-weight: bold;
+    padding-bottom: 70px;
 }
