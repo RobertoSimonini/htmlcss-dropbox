@@ -175,6 +175,34 @@ p {
     background-color: #000000;
 }
 
+.bg-green {
+    background-color: #a2d39b;
+}
+
+.bg-bordeaux {
+    background-color:#61082b;
+}
+
+.bg-azurine {
+    background-color: #0093ce;
+}
+
+.bg-red {
+    background-color: #ff1c1c;
+}
+
+.bg-darkred {
+    background-color: #d5001f;
+}
+
+.bg-blue {
+    background-color: #0d2481;
+}
+
+.bg-yellow {
+    background-color: #ffd830;
+}
+
 .blue {
     color: #0061ff;
 }
@@ -290,7 +318,7 @@ section {
 
 .members-section {
     padding: 0;
-    height: 700px;
+    height: 600px;
 }
 
 .companies-section {
@@ -343,7 +371,7 @@ section > .container {
 }
 
 .col-service {
-    height: 50%;
+    max-height: 50%;
     flex-basis: calc(100% / 3);
 }
 
@@ -352,8 +380,8 @@ section > .container {
 }
 
 .square-box {
-    flex-basis: calc(100% / 2);
-    border: 1px solid green;
+    width: 50%;
+    height: 50%;
 }
 
 .billing {
@@ -373,6 +401,15 @@ section > .container {
     height: 200px;
     text-align: center;
 }
+
+.square-box img {
+    transform: scale(0.5);
+    filter: invert(1);
+    
+}
+
+
+
 
 /* Footer  */
 
