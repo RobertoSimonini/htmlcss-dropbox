@@ -284,7 +284,8 @@ section {
 }
 
 .services-section {
-    height: 1000px;
+    height: 1200px;
+    padding-top: 0;
 }
 
 .members-section {
@@ -338,6 +339,7 @@ section > .container {
   
 .row {    
     flex-direction: column;
+    gap: 50px;
 }
 
 .col-service {
@@ -360,7 +362,16 @@ section > .container {
     
 }
 
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.cards img {
+    height: 200px;
+    text-align: center;
+}
 
 /* Footer  */
 
