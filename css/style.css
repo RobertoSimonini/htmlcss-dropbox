@@ -43,6 +43,10 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* Utils  */
 
 .border {
@@ -125,6 +129,10 @@ p {
     position: relative;
 }
 
+.fa-regular, .fa-solid {
+    margin-right: 5px;
+}
+
 /* Widths  */
 
 .w-25 {
@@ -203,12 +211,6 @@ p {
 
 /* Buttons  */
 
-.main-buttons {
-    padding: 10px 40px;
-    margin-bottom: 25px;
-    font-size: 13px;
-}
-
 .blue-button {
     text-decoration: none;
     border: none;
@@ -217,6 +219,12 @@ p {
     background-color: #0061ff;
     font-size: 18px;
     cursor: pointer;
+}
+
+.main-buttons {
+    padding: 10px 40px;
+    margin-bottom: 25px;
+    font-size: 13px;
 }
 
 .gray-button {
@@ -240,6 +248,14 @@ p {
     position: absolute; 
     top: 10px;
     right: 0;
+}
+
+.s-button {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    font-size: 15px;
+    padding: 10px 40px;
 }
 
 
@@ -334,13 +350,34 @@ section {
     padding-bottom: 0;
 }
 
+.sales-header {
+    min-height: 50px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
         
 .business-plans {   
-    height: 1200px;
+    height: 1100px;
     padding-top: 0;
 }
- 
+
+.sales-wrapper {
+    min-height: 250px;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-top: 0;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+    padding: 0 35px;
+    position: relative;
+}
+
  .user-section {
     height: 400px;
 }
@@ -401,9 +438,13 @@ section > .container {
 
 .flex > .full-col {
     flex-basis: 100%;
-    /* background-color: rgb(85, 202, 157); */
 }
-  
+
+.contact {
+    font-weight: bold;
+    padding-bottom: 70px;
+}
+
 .row {    
     flex-direction: column;
     gap: 50px;
@@ -469,10 +510,24 @@ section > .container {
 }
 
 /* Footer  */
+footer {
+    color: #fff;
+}
+
+
+.footer-nav-list li a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.footer-nav-list li {
+    padding-bottom: 15px;
+}
 
 .footer-top {
     padding: 50px;
-    height: 600px;
+    height: 400px;
   
     justify-content: center;
 }
@@ -486,40 +541,4 @@ section > .container {
 
 .footer-nav > div {
     flex-basis: 20%;
-}
-
-
-.sales-header {
-    min-height: 50px;
-    max-width: 1000px;
-    margin: 0 auto;
-    border: 1px solid gray;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.sales-wrapper {
-    min-height: 300px;
-    max-width: 1000px;
-    margin: 0 auto;
-    border-top: 0;
-    border-bottom: 1px solid gray;
-    border-right: 1px solid gray;
-    border-left: 1px solid gray;
-    padding: 0 35px;
-    position: relative;
-}
-
-.s-button {
-    position: absolute;
-    top: 30px;
-    right: 35px;
-    font-size: 15px;
-    padding: 10px 40px;
-}
-
-.contact {
-    font-weight: bold;
-    padding-bottom: 70px;
 }
