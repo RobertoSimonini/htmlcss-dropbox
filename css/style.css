@@ -294,6 +294,7 @@ section > .container {
 .flex > .business-col {
     flex-basis: calc(100% / 3);
     padding: 20px;
+    margin-right: 50px;
     border: 1px solid black;
      
 }
