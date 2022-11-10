@@ -12,7 +12,7 @@
     <!-- Google fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;800&display=swap" rel="stylesheet">
 
     <!-- Style  -->
     <link rel="stylesheet" href="css/style.css">
@@ -22,7 +22,7 @@
         <!-- Qui metterò la Navbar dell-header -->
 
     <header class="main-header">
-        <nav class="navbar flex">
+        <nav class="navbar flex bg-white">
             <div class="nav left flex">
                 <div id="logo">
                     <img src="img/logo-small.png" alt="">
@@ -76,12 +76,25 @@
         <!-- Qui metterò il main e le sue relative sezioni  -->
     <main>
         <!-- Qui metto la section dedicata ai piani per i clienti  -->
-        <section class="business-plans bg-white">
-           
-            <div class="container flex border">   
-                <div class="business-col border"></div>
-                <div class="business-col border"></div>
-                <div class="business-col border"></div>
+        <section class="bsnplan-header">
+            <div class="container">
+                <h2>Trova il piano business che fa per te</h2>
+                <span class="billing"> <i class="fa-solid fa-circle-dot"></i> Fatturazione mensile</span>
+                <span class="billing"> <i class="fa-regular fa-circle"></i>Fatturazione annuale</span>
+            </div>
+        </section>   
+        
+        <section class="business-plans bg-white">                            
+            <div class="container flex">
+                <div class="business-col">
+                    <span class="label flex">Singolo</span>
+                </div>
+                <div class="business-col">
+                    <span class="label flex">Team</span>
+                </div>
+                <div class="business-col">
+                    <span class="label flex">Azienda</span>
+                </div>
             </div>
         </section>
 

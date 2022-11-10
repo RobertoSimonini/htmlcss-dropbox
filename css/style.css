@@ -9,6 +9,27 @@
 
 /* Generics  */
 
+body {
+    margin-top: 80px;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 75px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+h2 {
+    font-weight: 600;   
+    font-size: 40px;
+    padding-bottom: 30px;   
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
 
 /* Utils  */
 
@@ -60,6 +81,12 @@ p {
     font-size: 16px;
 }
 
+.label {
+    justify-content: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+    
+}
 
 /* Widths  */
 
@@ -99,6 +126,8 @@ p {
 
 /* Header  */
 
+
+
 .main-header {
     background-color: #fff;
     font-size: 18px;
@@ -111,6 +140,11 @@ p {
   
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
 }
 
 .navbar > * {
@@ -142,24 +176,17 @@ p {
 .jumbotron {
     padding: 50px;
     height: 750px;
+    margin-bottom: 50px;
   
     justify-content: center;
     
 }
  
-h1 {
-    font-weight: 800;
-    font-size: 75px;
-    padding-top: 50px;
-    padding-bottom: 60px;
-}
-
 figure {
     position: absolute;
     right: 25px;
     top: 318px;
 }
-
 
 figure img {
     height: 450px;
@@ -181,8 +208,15 @@ section {
 }
 
         /* Sections Height  */
+
+.bsnplan-header {
+    height: 250px;
+    padding-bottom: 0;
+}
+        
 .business-plans {   
     height: 1200px;
+    padding-top: 0;
 }
     
 .sales-office-section, .users-section {
@@ -212,14 +246,14 @@ section {
 }
 
 
-
 section > .container {
     height: 100%;
 }
 
 .flex > .business-col {
     flex-basis: calc(100% / 3);
-    padding: 20px;
+    padding: 20px 0;
+    border: 1px solid black;
      
 }
 
@@ -254,6 +288,12 @@ section > .container {
 .square-box {
     flex-basis: calc(100% / 2);
     border: 1px solid green;
+}
+
+.billing {
+    padding: 5px;
+    padding-right: 50px;
+    
 }
 
 
