@@ -150,7 +150,7 @@ p {
     width: 50%;
 }
 
-.w60 {
+.w-60 {
     width: 60%;
 }
 
@@ -366,6 +366,7 @@ section > .container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 15px;
 }
 
 .cards img {
