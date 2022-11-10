@@ -141,6 +141,10 @@ p {
 
 /* Widths  */
 
+.w-25 {
+    width: 25%;
+}
+
 .w-33 {
     width: calc(100% / 3);
     
@@ -408,8 +412,18 @@ section > .container {
     
 }
 
+.center {
+    padding: 50px;
+}
 
+.center img {
+    height: 80px;
+    margin-bottom: 50px;
+}
 
+.members-paragraph {
+    padding: 50px 0;
+}
 
 /* Footer  */
 
