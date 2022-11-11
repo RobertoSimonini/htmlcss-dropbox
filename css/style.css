@@ -310,6 +310,11 @@ p {
     padding-right: 40px;
 }
 
+.navbar-menu li a:hover {
+    text-decoration: underline #3b3b3b 2px;
+    text-underline-offset: 25px;
+}
+
 /* Jumbotron */
 
 .jumbotron {
@@ -534,7 +539,11 @@ section > .container {
     color: #000;
     padding: 35px 0;
     border-bottom: 1px solid black ;
+}
 
+.arrow-right {
+    position: absolute;
+    right: 0;
 }
 
 /* Footer  */
