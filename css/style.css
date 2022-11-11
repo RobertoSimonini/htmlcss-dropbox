@@ -258,6 +258,9 @@ p {
     padding: 10px 40px;
 }
 
+.contact-but {
+    padding: 10px 85px;
+}
 
 
 /* Header  */
@@ -423,6 +426,10 @@ section > .container {
 .bsn-content {
     padding: 0 35px;
     min-height: 500px;
+}
+
+.price-wrapper {
+    padding-bottom: 50px;
 }
 
 .highlights {
