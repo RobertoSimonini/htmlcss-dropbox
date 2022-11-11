@@ -562,7 +562,7 @@ footer {
 
 .footer-bottom {
     padding: 50px;
-    height: 150px;
+    height: 200px;
   
     justify-content: center;
 }
@@ -571,12 +571,11 @@ footer {
     flex-basis: 20%;
 }
 
-
-
-
-
-/* Test  */
-
+.language {
+    color: #c9c6c6;
+    padding-top: 50px;
+    border-top: 1px solid #fff;
+}
 
 
 
