@@ -94,8 +94,8 @@ p {
 .label {
     justify-content: center;
     align-items: center;
-    padding-bottom: 10px;
-    border-bottom: 1px solid black;    
+    padding: 10px 0;
+    border-bottom: 1px solid gray;    
 }
 
 .label-team {
@@ -345,10 +345,10 @@ section {
 
         /* Sections Height  */
 
-.bsnplan-header {
-    height: 250px;
-    padding-bottom: 0;
+.bsn-header {
+    padding-bottom: 50px;
 }
+
 
 .sales-header {
     min-height: 50px;
@@ -362,8 +362,7 @@ section {
 
         
 .business-plans {   
-    height: 1100px;
-    padding-top: 0;
+    min-height: 1100px;
 }
 
 .sales-wrapper {
@@ -411,12 +410,23 @@ section > .container {
     height: 100%;
 }
 
-.flex > .business-col {
+.row-bsn-container {
+    display: flex;
+    gap: 40px;
+}
+
+.bsn-card {
     flex-basis: calc(100% / 3);
-    padding: 20px;
-    margin-left: 50px;
-    border: 1px solid black;
-     
+    border: 1px solid gray;
+}
+
+.bsn-content {
+    padding: 0 35px;
+    min-height: 500px;
+}
+
+.highlights {
+    padding: 30px 0;
 }
 
 .flex > .large-col {
@@ -486,6 +496,12 @@ section > .container {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 10px solid transparent;
+    transition: border 1s;
+}
+
+.square-box:hover {
+    border: 10px solid rgba(255, 255, 255, 0.5);
 }
 
 .square-box img {
@@ -547,3 +563,13 @@ footer {
 .footer-nav > div {
     flex-basis: 20%;
 }
+
+
+
+
+
+/* Test  */
+
+
+
+
