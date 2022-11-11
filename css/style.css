@@ -310,11 +310,6 @@ p {
     padding-right: 40px;
 }
 
-.navbar-menu li a:hover {
-    text-decoration: underline #3b3b3b 2px;
-    text-underline-offset: 25px;
-}
-
 /* Jumbotron */
 
 .jumbotron {
@@ -586,5 +581,14 @@ footer {
     border-top: 1px solid #fff;
 }
 
+/* Bonus  */
 
+.navbar-menu li a:hover {
+    text-decoration: underline #3b3b3b 2px;
+    text-underline-offset: 30px;
+}
+
+button:hover {
+    filter: brightness(1.25);
+}
 
