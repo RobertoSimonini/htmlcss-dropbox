@@ -414,7 +414,7 @@ section > .container {
 .flex > .business-col {
     flex-basis: calc(100% / 3);
     padding: 20px;
-    margin-right: 50px;
+    margin-left: 50px;
     border: 1px solid black;
      
 }
@@ -482,10 +482,15 @@ section > .container {
     text-align: center;
 }
 
+.square-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .square-box img {
-    transform: scale(0.5);
-    filter: invert(1);
-    
+    width: 50%;
+    filter: invert(1);    
 }
 
 .center {
